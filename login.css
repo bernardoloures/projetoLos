@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a90909;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilos para o título no topo da tela */
+.titulo-superior {
+    text-align: center; /* Centraliza o texto */
+    font-size: 40px; /* Tamanho grande */
+    margin-top: 0; /* Remova a margem superior para posicioná-lo no topo */
+    padding-top: 50px; /* Adiciona preenchimento superior para afastá-lo do topo da página */
+    position: fixed; /* Fixa o elemento na parte superior da janela de visualização */
+    top: 0; /* Alinha o elemento ao topo da janela de visualização */
+    color: rgb(255, 255, 255); /* Cor do texto */
+    margin: 0;
+}
+
+.login-container {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.color-login{
+    color: white;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Adicione esta classe para estilizar o ícone de carregamento */
+.loading-icon {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.loading-icon img {
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+}
+
+/* Estilo para mensagem de erro */
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Estilo para campo de entrada em erro */
+.error {
+    border-color: red;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        var isAuthenticated = false;
+        if (!isAuthenticated) {
+        window.location.href = "login.html";
+    }
+</script>
+
+    <meta charset="UTF-8">
+    <title>Los Turcos FC</title>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap'>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo-campeonato">
+            <img src="logolosturcos.jpg" alt="Logo Los Turcos Fc" style="width: 100px;">
+            <a href=""><h1>Los Turcos FC</h1></a>
+        </div>
+        <div class="search-times">
+            <input type="text" placeholder="Buscar jogador" id="searchInput" onkeyup="filterJogador()">
+            <select id="categorySelect" class="select-rodada" onchange="filterRodadas()">
+                <option value="Todos">Todos</option>
+                <option value="1">Goleiro</option>
+                <option value="2">Fixo</option>
+                <option value="3">Meia</option>
+                <option value="4">Ala</option>
+                <option value="5">Pivô</option>
+            </select>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
