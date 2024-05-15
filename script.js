@@ -4,7 +4,7 @@ function login() {
     var errorMessage = document.getElementById("error-message");
 
     // Simulação de validação (substitua por sua lógica de autenticação real)
-    if (username === "losturcosfc@gmail.com" && password === "tropadolos123") {
+    if (username === "abcd" && password === "1234") {
         // Exibir ícone de carregamento
         document.getElementById("loading-icon").style.display = "inline";
 
