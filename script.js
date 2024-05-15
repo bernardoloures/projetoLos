@@ -4,12 +4,12 @@ function login() {
     var errorMessage = document.getElementById("error-message");
 
     // Simulação de validação (substitua por sua lógica de autenticação real)
-    if (username === "abcd" && password === "1234") {
+    if (username === "abcde" && password === "1234") {
         // Exibir ícone de carregamento
         document.getElementById("loading-icon").style.display = "inline";
 
         setTimeout(function() {
-            window.location.href = "index.html"; //Redirecionar para a página do sistema de venda (index)
+            window.location.href = "index.html"; // Redirecionar para a página principal após 3 segundos
         }, 3000); // 3000 milissegundos = 3 segundos
         
         // Limpar mensagem de erro e remover classe de erro dos campos
