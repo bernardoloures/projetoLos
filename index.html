@@ -7,18 +7,15 @@
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <!-- Adicione o título no topo da tela -->
     <h1 class="titulo-superior">LOS TURCOS FC</h1>
     <div class="login-container">
         <div class="color-login"><h2>Login</h2></div>
             <input type="text" id="username" placeholder="Usuário">
             <input type="password" id="password" placeholder="Senha">
             <button onclick="login()">Login</button>
-        <!-- Div para ícone de carregamento -->
         <div class="loading-icon" id="loading-icon" style="display: none;">
             <img src="loading.gif" alt="Carregando...">
         </div>
-        <!-- Mensagem de erro -->
         <div id="error-message" class="error-message" style="display: none;">
             Usuário ou senha incorretos. Por favor, tente novamente.
         </div>
