@@ -7,8 +7,8 @@
 
   body {
     display: flex;
-    justify-content: flex-start; /* Alinhar ao início da tela */
-    align-items: flex-start; /* Alinhar ao topo da tela */
+    justify-content: flex-start;
+    align-items: flex-start;
     background: #000000;
 }
 .header {
@@ -21,7 +21,7 @@
 }
 .logo-campeonato {
     display: flex;
-    align-items: center; /* Adicionando para alinhar verticalmente */
+    align-items: center;
 }
 
 .logo-campeonato a {
@@ -33,15 +33,15 @@
 
 
 .logo-campeonato img {
-    margin-right: 10px; /* Adiciona margem à direita da imagem para separar do texto */
+    margin-right: 10px;
 }
 
 .search-times {
-    flex-grow: 1; /* Expandir para ocupar o espaço disponível */
+    flex-grow: 1;
     display: flex;
-    justify-content: flex-end; /* Alinhar conteúdo à direita */
-    align-items: center; /* Alinhar verticalmente */
-    padding: 20px; /* Adicionar padding para espaçamento interno */
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
 }
 
 .search-times input[type="text"] {
