@@ -9,6 +9,7 @@ function login() {
         document.getElementById("loading-icon").style.display = "inline";
 
         setTimeout(function() {
+            console.log("Função login() sendo chamada.");
             window.location.href = "index.html"; // Redirecionar para a página principal após 3 segundos
         }, 3000); // 3000 milissegundos = 3 segundos
         
