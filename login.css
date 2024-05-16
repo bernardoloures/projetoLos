@@ -9,15 +9,14 @@ body {
     height: 100vh;
 }
 
-/* Estilos para o título no topo da tela */
 .titulo-superior {
-    text-align: center; /* Centraliza o texto */
-    font-size: 40px; /* Tamanho grande */
-    margin-top: 0; /* Remova a margem superior para posicioná-lo no topo */
-    padding-top: 50px; /* Adiciona preenchimento superior para afastá-lo do topo da página */
-    position: fixed; /* Fixa o elemento na parte superior da janela de visualização */
-    top: 0; /* Alinha o elemento ao topo da janela de visualização */
-    color: rgb(255, 255, 255); /* Cor do texto */
+    text-align: center; 
+    font-size: 40px; 
+    margin-top: 0;
+    padding-top: 50px;
+    position: fixed;
+    top: 0; 
+    color: rgb(255, 255, 255); 
     margin: 0;
 }
 
@@ -55,23 +54,20 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* Adicione esta classe para estilizar o ícone de carregamento */
 .loading-icon {
     text-align: center;
     margin-top: 20px;
 }
 
 .loading-icon img {
-    width: 50px; /* Ajuste o tamanho conforme necessário */
+    width: 50px; 
 }
 
-/* Estilo para mensagem de erro */
 .error-message {
     color: red;
     margin-top: 10px;
 }
 
-/* Estilo para campo de entrada em erro */
 .error {
     border-color: red;
 }
