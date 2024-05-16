@@ -10,7 +10,7 @@ function login() {
 
         setTimeout(function() {
             window.location.href = "index.html"; // Redirecionar para a página principal após 3 segundos
-        }
+        )}
         
         // Limpar mensagem de erro e remover classe de erro dos campos
         errorMessage.style.display = "none";
